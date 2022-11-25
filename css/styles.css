@@ -1,0 +1,208 @@
+/*
+Title
+Navigation Bar
+Download Button
+Features
+Testimonial
+Press
+Pricing
+CTA
+Footer */
+
+/* CSS Selectors:   #title .container-fluid{} This will override the class container-fluid for title section. */
+
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Montserrat";
+}
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading{
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section{
+  background-color: white;
+}
+
+/* Title */
+#title {
+    text-align: left;
+}
+
+
+.container-fluid {
+  padding: 3% 15% 8%;
+
+}
+
+
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Button */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.title-img {
+  width: 20%;
+  transform: rotate(25deg);
+  margin-left: 50px;
+  position: absolute;
+  right: 25%;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    width: 60%;
+    transform: rotate(0);
+    margin :auto;
+  }
+}
+
+/* Features */
+#features {
+  padding: 7% 15%;
+  position: relative;
+  /* Refer flow chart for z-index and positions for making dog image behind feature section. */
+}
+
+.feature-box {
+  padding: 0 8%;
+}
+
+.feat-icon {
+  /* font-size: 3.5rem; */
+  color: #ef8172;
+  padding: 0 5% 5% 5%;
+}
+
+.feat-icon:hover {
+  color: #ff4c68;
+}
+
+.feat-title {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.feat-desc {
+  color: #8f8f8f;
+}
+
+/* Testimonial */
+#testimonials,#press {
+  background-color: #ef8172;
+}
+
+.testimonial-text{
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+.carousel-item {
+  padding: 7% 11%;
+}
+
+/* Press */
+#press {
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 50px 50px;
+}
+
+/* Pricing */
+#pricing {
+  padding: 40px;
+}
+
+.pricing-card {
+  padding: 3% 2%;
+}
+
+.pricing-text{
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+/* CTA */
+
+#cta{
+  padding: 2% 2% 4%;
+}
+
+.cta-text{
+  width: 65%;
+  margin: 2% auto;
+}
+
+.cta-button{
+  margin: auto 10px;
+}
+
+/* Footer */
+#footer{
+  padding: 2%;
+}
+
+.copyright{
+  padding: 0 2% 2%;
+  color: grey;
+  font-size: 15px;
+}
+
+.social-med{
+  color: black;
+  font-size: 20px;
+  padding: 20px 10px;
+}
